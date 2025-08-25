@@ -1,0 +1,164 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+hr {
+    border: none;
+    height: 60px;
+    background-color: white;
+    margin: 20px 0;
+}
+.Recentemente {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Recentemente .card {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(63, 63, 63);
+}
+
+.Recentemente .card img {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.Recentemente .card h4 {
+    width: 150px;
+    font-size: 25px;
+}
+
+
+.Musicas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+
+}
+
+.Musicas .card {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    justify-content: start;
+
+}
+
+.card:hover {
+    background-color: rgb(54, 54, 54);
+    opacity: 100;
+}
+
+
+.Musicas .card img {
+    width: 100%;
+        position: relative;
+
+}
+i.fa-solid.fa-play {
+    display: none;
+    visibility: hidden;
+}
+
+.Musicas .card a:hover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #B197FC;
+    font-size: 2em;
+    opacity: 0.8;
+    visibility: visible;
+    display: block;
+}
+
+h1,
+h4,
+p {
+    color: rgb(237, 212, 253);
+    margin: 5px;
+}
+
+.Artistas {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.Artistas .card img {
+      border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.Artistas .card {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.Singles{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Singles .card {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.Singles .card img {
+    width: 100%;
+}
+
+.Paradas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}   
+
+.Paradas .card {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.Paradas .card img {
+    width: 100%;
+}
+
+.Playlists {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Playlists .card {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.Playlists .card img {
+    width: 100%;
+}
+

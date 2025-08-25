@@ -1,0 +1,104 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+    .popular {
+    margin: 20px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.popular .card {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    background-color: rgb(0, 0, 0);
+}
+
+.popular .card img {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.popular .card h4 {
+    width: 100%;
+    font-size: 25px;
+}
+.card:hover {
+    background-color: rgb(54, 54, 54);
+    opacity: 100;
+}
+    .escolha {
+    margin: 20px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.escolha .card {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    background-color: rgb(0, 0, 0);
+}
+
+.escolha .card img {
+    width: 170px;
+    height: 170px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.escolha .card h4 {
+    width: 100%;
+    font-size: 25px;
+}
+
+.disco {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+
+}
+
+.disco .card {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    justify-content: start;
+
+}
+
+.disco :hover {
+    background-color: rgb(54, 54, 54);
+    opacity: 100;
+}
+
+
+.disco .card img {
+    width: 100%;
+        position: relative;
+
+}
+
+.disco .card a:hover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #B197FC;
+    font-size: 2em;
+    opacity: 0.8;
+    visibility: visible;
+    display: block;
+}
+
