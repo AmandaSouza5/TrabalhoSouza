@@ -1,11 +1,17 @@
-
 body {
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
-    .popular {
+.imagemdefundo {
+  background-image: url("jotape.jpg");
+  height: 100px; 
+  background-repeat: no-repeat;
+  border: none; 
+  width: 100%; 
+}
+.popular {
     margin: 20px;
     justify-content: space-between;
     gap: 10px;
@@ -30,11 +36,13 @@ body {
     width: 100%;
     font-size: 25px;
 }
+
 .card:hover {
     background-color: rgb(54, 54, 54);
     opacity: 100;
 }
-    .escolha {
+
+.escolha {
     margin: 20px;
     justify-content: space-between;
     gap: 10px;
@@ -60,45 +68,29 @@ body {
     font-size: 25px;
 }
 
-.disco {
+
+.disco{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
-    
-
 }
 
 .disco .card {
     width: 200px;
-    height: 200px;
     padding: 10px;
     text-align: center;
     justify-content: start;
 
-}
 
-.disco :hover {
-    background-color: rgb(54, 54, 54);
-    opacity: 100;
 }
-
 
 .disco .card img {
     width: 100%;
-        position: relative;
-
+    height: 200px;
 }
-
-.disco .card a:hover{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #B197FC;
-    font-size: 2em;
-    opacity: 0.8;
-    visibility: visible;
-    display: block;
+.disco.card h4 p {
+    align-items: center;
+    width: 100%;
+    font-size: 25px;
 }
-

@@ -7,7 +7,7 @@ body {
 hr {
     border: none;
     height: 60px;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     margin: 20px 0;
 }
 .Recentemente {
