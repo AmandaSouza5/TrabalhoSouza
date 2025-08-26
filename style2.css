@@ -4,13 +4,39 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
+
 .imagemdefundo {
-  background-image: url("jotape.jpg");
-  height: 100px; 
-  background-repeat: no-repeat;
-  border: none; 
-  width: 100%; 
+    background-image: url(img/jotape.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+    height: 300px;
+    border: none;
+    width: 100%;
 }
+
+.imagemdefundo h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 240px;
+    text-align: start;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.menu button {
+    background-color: #B197FC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
 .popular {
     margin: 20px;
     justify-content: space-between;
@@ -69,14 +95,14 @@ body {
 }
 
 
-.disco{
+.feat {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.disco .card {
+.feat .card {
     width: 200px;
     padding: 10px;
     text-align: center;
@@ -85,12 +111,52 @@ body {
 
 }
 
-.disco .card img {
+.feat .card img {
     width: 100%;
     height: 200px;
 }
-.disco.card h4 p {
+
+.feat .card h4 p {
     align-items: center;
     width: 100%;
     font-size: 25px;
+}
+
+.card:hover {
+    background-color: rgb(54, 54, 54);
+    opacity: 100;
+}
+
+.sobre {
+    background-image: url(img/jotape.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    height: 600px;
+    border: none;
+    width: 100%;
+}
+.sobre p {
+    padding-top: 500px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.fãs {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.fãs .card img {
+      border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.fãs .card {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+
 }
